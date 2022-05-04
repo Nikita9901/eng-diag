@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    height: 420px;
+    margin-top: 60px;
+}
+.scrollbar{
+    height: 420px;
+    width: 100%;
+}
+
+.scrolling_wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.scrolling_wrapper::-webkit-scrollbar {
+    visibility: hidden;
+}
+.scrollbar_block{
+    position: relative;
+    border-radius: 5px;
+    background: linear-gradient(270deg, #FEE040 50%, rgba(254, 224, 64, 0) 100%);
+    width: 100%;
+    height: 5px;
+}

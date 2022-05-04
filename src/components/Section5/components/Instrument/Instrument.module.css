@@ -1,0 +1,32 @@
+.container{
+    width: 340px;
+    height: 420px;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    margin-right: 20px;
+}
+.image{
+    position: absolute;
+    top:-60px;
+}
+.bg_mask{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 340px;
+    height: 360px;
+    background: #F5F5F5;
+    border-radius: 2px;
+}
+.description{
+    position: absolute;
+    top:280px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #151515;
+    opacity: 0.7;
+}

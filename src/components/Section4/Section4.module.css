@@ -1,0 +1,138 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+}
+
+.header{
+    font-family: 'Bebas Neue', serif;
+    font-weight: 700;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 5px;
+    background: linear-gradient(180deg, #60B6FF 0%, rgba(0, 78, 134, 0.8) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.second_text{
+    font-family: 'Gilroy', serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #505050;
+}
+
+.step1_block{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.text_block{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+}
+.mask{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: #F5F5F5;
+}
+.step_text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #151515;
+    background: yellow;
+    padding: 8px 8px;
+    text-align: center;
+    margin-right: 15px;
+}
+.step_header_text{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: -0.5px;
+    color: #151515;
+    padding-top: 5px;
+}
+.step_header{
+    display: flex;
+    flex-direction: row;
+}
+.step_second_text{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    color: #333333;
+    opacity: 0.7;
+}
+.step_second{
+    width:100%;
+}
+.quote{
+    display: flex;
+    width: 100%;
+}
+.quote_text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: #505050;
+    opacity: 0.7;
+}
+.image{
+    position: absolute;
+    top: 11px;
+    left:13px;
+    height: 56px;
+    width: 56px;
+}
+.bg_image{
+    position: relative;
+    background-color: white;
+    border-radius: 100%;
+    min-height: 80px;
+    max-height: 80px;
+    min-width: 80px;
+    max-width: 80px;
+    margin-right: 15px;
+}
+.quote_author{
+    text-align: right;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    color: #151515;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 973px){
+    .step1_block{
+        flex-direction: column;
+    }
+
+    .text_block{
+        margin: auto;
+        margin-top: 25px;
+        padding: 0;
+    }
+}
